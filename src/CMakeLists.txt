@@ -1,0 +1,5 @@
+#因为服务器端源码是在server目录下，所以加载server下的CMakeLists.txt
+add_subdirectory(server)
+
+#因为客户端源码在client目录下，所以加载client下的CMakeLists.txt
+add_subdirectory(client)
